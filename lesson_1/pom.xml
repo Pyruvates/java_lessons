@@ -1,17 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java_lessons</artifactId>
+        <groupId>ru.koshkarovvitaliy</groupId>
+        <version>1.1.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.koshkarovvitaliy</groupId>
-    <artifactId>java_lessons</artifactId>
-    <version>1.1.0</version>
-    <modules>
-        <module>lesson_1</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>lesson_1</artifactId>
+    <packaging>jar</packaging>
 
-    <name>java_lessons_by_Koshkarov_Vitaliy</name>
+    <name>lesson_1</name>
 
     <developers>
         <developer>
@@ -21,9 +22,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>17</java.version>
-        <maven.compiler.version>3.10.1</maven.compiler.version>
-        <maven.jar.plugin.version>3.2.2</maven.jar.plugin.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <build>
@@ -36,6 +36,20 @@
                     <configuration>
                         <source>${java.version}</source>
                         <target>${java.version}</target>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>${maven.jar.plugin.version}</version>
+                    <configuration>
+                        <archive>
+                            <manifest>
+                                <addClasspath>true</addClasspath>
+                                <mainClass>ru.koshkarovvitaliy.FirstProgram</mainClass>
+                            </manifest>
+                        </archive>
                     </configuration>
                 </plugin>
             </plugins>

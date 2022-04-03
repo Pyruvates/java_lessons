@@ -26,3 +26,4 @@ _Дополнительные источники:_
 6. Статья о gitflow https://habr.com/ru/post/106912/
 7. Обзорная статья про maven https://tproger.ru/articles/maven-short-intro/
 8. Вводные курсы по основам программирования, основам командной строки (терминал), основам git и основам ОС https://ru.hexlet.io/courses/free
+9. CS50 https://www.youtube.com/watch?v=Sy_wba7l1UU&list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5

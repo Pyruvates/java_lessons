@@ -10,7 +10,7 @@
 _Дополнительные источники:_
 
 1. Брюс Эккель 'Философия java'
-2. Kathy Sierra, Bert Bates 'Head first java'
+2. Герберт Шилдт 'Java. Полное руководство'
 3. Бхаргава Адитья 'Грокаем алгоритмы'
 4. Джошуа Блох 'Java. Эффективное программирование'
 5. Роберт Мартин 'Чистый код'
@@ -20,10 +20,11 @@ _Дополнительные источники:_
 
 1. Рандомные задачи разделённые по уровню сложности https://www.codewars.com/
 2. https://leetcode.com/
-3. Паттерны проектирования https://refactoring.guru/
-4. Паттерны проектирования https://sourcemaking.com/
-5. Задачи на SQL https://www.sql-ex.ru/
-6. Статья о gitflow https://habr.com/ru/post/106912/
-7. Обзорная статья про maven https://tproger.ru/articles/maven-short-intro/
-8. Вводные курсы по основам программирования, основам командной строки (терминал), основам git и основам ОС https://ru.hexlet.io/courses/free
-9. CS50 https://www.youtube.com/watch?v=Sy_wba7l1UU&list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5
+3. Git documentation https://git-scm.com/book/en/v2
+4. Паттерны проектирования https://refactoring.guru/
+5. Паттерны проектирования https://sourcemaking.com/
+6. Задачи на SQL https://www.sql-ex.ru/
+7. Статья о gitflow https://habr.com/ru/post/106912/
+8. Обзорная статья про maven https://tproger.ru/articles/maven-short-intro/
+9. Вводные курсы по основам программирования, основам командной строки (терминал), основам git и основам ОС https://ru.hexlet.io/courses/free
+10. CS50 https://www.youtube.com/watch?v=Sy_wba7l1UU&list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5

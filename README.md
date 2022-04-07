@@ -18,13 +18,14 @@ _Дополнительные источники:_
 
 Полезные ссылки
 
-1. Рандомные задачи разделённые по уровню сложности https://www.codewars.com/
-2. https://leetcode.com/
-3. Git documentation https://git-scm.com/book/en/v2
-4. Паттерны проектирования https://refactoring.guru/
-5. Паттерны проектирования https://sourcemaking.com/
-6. Задачи на SQL https://www.sql-ex.ru/
-7. Статья о gitflow https://habr.com/ru/post/106912/
-8. Обзорная статья про maven https://tproger.ru/articles/maven-short-intro/
-9. Вводные курсы по основам программирования, основам командной строки (терминал), основам git и основам ОС https://ru.hexlet.io/courses/free
-10. CS50 https://www.youtube.com/watch?v=Sy_wba7l1UU&list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5
+1. Java code style https://google.github.io/styleguide/javaguide.html
+2. Рандомные задачи разделённые по уровню сложности https://www.codewars.com/
+3. https://leetcode.com/
+4. Git documentation https://git-scm.com/book/en/v2
+5. Паттерны проектирования https://refactoring.guru/
+6. Паттерны проектирования https://sourcemaking.com/
+7. Задачи на SQL https://www.sql-ex.ru/
+8. Статья о gitflow https://habr.com/ru/post/106912/
+9. Обзорная статья про maven https://tproger.ru/articles/maven-short-intro/
+10. Вводные курсы по основам программирования, основам командной строки (терминал), основам git и основам ОС https://ru.hexlet.io/courses/free
+11. CS50 https://www.youtube.com/watch?v=Sy_wba7l1UU&list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5

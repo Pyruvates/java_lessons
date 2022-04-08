@@ -1,4 +1,4 @@
-package MyClasses;
+package my.classes;
 
 public class TV {
     public static void main(String[] args) {

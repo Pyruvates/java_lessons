@@ -1,4 +1,4 @@
-package MyClasses;
+package my.classes;
 
 public class Coffeemaker {
     public static void main(String[] args) {

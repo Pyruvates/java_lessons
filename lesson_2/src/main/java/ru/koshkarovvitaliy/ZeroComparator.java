@@ -10,18 +10,22 @@ import java.util.Scanner;
 public class ZeroComparator {
     public static void main(String[] args) {
         System.out.println("Start");
-        int number;
+
 
         try (Scanner scanner = new Scanner(System.in)) {
-
+            int number = 0;
             System.out.println("Enter any number");
 
             if (scanner.hasNext()) {
                 number = scanner.nextInt(10);
             }
 //            Написать свой код тут
-            if (number) {
-
+            if (number < 0) {
+                System.out.println("Your number is < 0");
+            } else if (number == 0) {
+                System.out.println("Your number is 0");
+            } else {
+                System.out.println("Your number is > 0");
             }
 
             System.out.println("End");

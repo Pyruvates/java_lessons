@@ -5,6 +5,7 @@
     - while
     - do-while
     - for
+    - forEach
 3. Область видимости переменных
 4. Ключевые слова **static** и **final**
 

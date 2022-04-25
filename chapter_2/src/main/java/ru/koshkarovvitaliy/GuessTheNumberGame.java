@@ -23,7 +23,6 @@ public class GuessTheNumberGame {
 
             if (scanner.hasNext()) {
                 inputNumber = scanner.nextInt(10);
-//              Написать свой код тут
             }
 
             System.out.println("End");

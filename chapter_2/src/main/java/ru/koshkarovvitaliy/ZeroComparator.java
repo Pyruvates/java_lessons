@@ -19,10 +19,9 @@ public class ZeroComparator {
             if (scanner.hasNext()) {
                 number = scanner.nextInt(10);
             }
-//            Написать свой код тут
-            if (number) {
-
-            }
+//            Раскомментировать if и написать свой код тут
+//            if (number) {
+//            }
 
             System.out.println("End");
 

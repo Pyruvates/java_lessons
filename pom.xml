@@ -7,9 +7,9 @@
     <artifactId>java_lessons</artifactId>
     <version>1.1.0</version>
     <modules>
-        <module>lesson_1</module>
-        <module>lesson_2</module>
-        <module>lesson_3</module>
+        <module>chapter_1</module>
+        <module>chapter_2</module>
+        <module>chapter_3</module>
     </modules>
     <packaging>pom</packaging>
 

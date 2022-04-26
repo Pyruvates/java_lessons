@@ -1,11 +1,12 @@
 План занятий
 
 1. Вводный урок: настройка окружения, jdk, git, maven. Первая программа. Понятие класса и переменной
-2. Арифметические и логические операторы. Типы данных. Объект. Методы. Модификаторы доступа. Типа памяти в java. Debugger
-3. Управляющие конструкции. Циклы. Область видимости. Ключевые слова **static**, **final**
+2. Арифметические и логические операторы. Типы данных. Объект. Методы. Модификаторы доступа
+3. Управляющие конструкции. Циклы. Область видимости. Ключевые слова **static**, **final**. Debugger
 4. String, StringBuilder. Массивы. Дата и время
-5. Exceptions. Конструкция try-catch-finally. Upcasting and Downcasting
-6. Collection interface. List. Set. Stack. Queue. Map. Tree
+5. ООП
+6. Exceptions. Конструкция try-catch-finally. Upcasting and Downcasting
+7. Collection interface. List. Set. Stack. Queue. Map. Tree
 
 _Дополнительные источники:_
 

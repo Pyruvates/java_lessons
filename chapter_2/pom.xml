@@ -9,22 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lesson_1</artifactId>
-    <packaging>jar</packaging>
-
-    <name>lesson_1</name>
-
-    <developers>
-        <developer>
-            <name>Koshkarov Vitaliy</name>
-        </developer>
-    </developers>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+    <artifactId>chapter_2</artifactId>
 
     <build>
         <pluginManagement>
@@ -47,7 +32,7 @@
                         <archive>
                             <manifest>
                                 <addClasspath>true</addClasspath>
-                                <mainClass>Main</mainClass>
+                                <mainClass>ru.koshkarovvitaliy.ZeroComparator</mainClass>
                             </manifest>
                         </archive>
                     </configuration>

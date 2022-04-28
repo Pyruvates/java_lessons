@@ -16,7 +16,8 @@ public class GuessTheNumberGame {
         System.out.println("Start");
         String guessStr = "Guess the number from 1 to 10";
         int num = new Random().nextInt(1, 11);
-        int inputNumber;
+        int inputNumber = 0;
+        int tryNumber = 1;
         System.out.println(guessStr);
 
         try (Scanner scanner = new Scanner(System.in)) {
@@ -24,7 +25,24 @@ public class GuessTheNumberGame {
             if (scanner.hasNext()) {
                 inputNumber = scanner.nextInt(10);
             }
-
+            while (num != inputNumber) {
+                if (tryNumber >= 3) {
+                    System.out.println("Ne ugadal, kojaniy ubludok, vot tvoe zagadannoe chislo " + num);
+                    break;
+                }
+                if (num > inputNumber) {
+                    tryNumber = tryNumber + 1;
+                    System.out.println("Ne ugadal, kojaniy ubludok, zagadannoe chislo bolshe");
+                    inputNumber = scanner.nextInt(10);
+                    continue;
+                }
+                if (num < inputNumber) {
+                    tryNumber = tryNumber + 1;
+                    System.out.println("Ne ugadal, kojaniy ubludok, zagadannoe chislo menshe");
+                    inputNumber = scanner.nextInt(10);
+                    continue;
+                }
+            }
             System.out.println("End");
         } catch (Exception ex) {
             ex.printStackTrace();

@@ -27,18 +27,18 @@ public class GuessTheNumberGame {
             }
             while (num != inputNumber) {
                 if (tryNumber >= 3) {
-                    System.out.println("Ne ugadal, kojaniy ubludok, vot tvoe zagadannoe chislo " + num);
+                    System.out.println(num);
                     break;
                 }
                 if (num > inputNumber) {
                     tryNumber = tryNumber + 1;
-                    System.out.println("Ne ugadal, kojaniy ubludok, zagadannoe chislo bolshe");
+                    System.out.println("Больше");
                     inputNumber = scanner.nextInt(10);
                     continue;
                 }
                 if (num < inputNumber) {
                     tryNumber = tryNumber + 1;
-                    System.out.println("Ne ugadal, kojaniy ubludok, zagadannoe chislo menshe");
+                    System.out.println("Меньше");
                     inputNumber = scanner.nextInt(10);
                     continue;
                 }

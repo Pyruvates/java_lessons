@@ -40,10 +40,11 @@ public class GuessTheNumberGame {
                     tryNumber = tryNumber + 1;
                     System.out.println("Меньше");
                     inputNumber = scanner.nextInt(10);
-                    continue;
                 }
             }
-            System.out.println("End");
+            if (num == inputNumber) {
+                System.out.println("Верно!");
+            }
         } catch (Exception ex) {
             ex.printStackTrace();
         }

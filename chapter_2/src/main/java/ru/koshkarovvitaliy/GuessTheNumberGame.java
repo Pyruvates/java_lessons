@@ -34,9 +34,7 @@ public class GuessTheNumberGame {
                     tryNumber = tryNumber + 1;
                     System.out.println("Больше");
                     inputNumber = scanner.nextInt(10);
-                    continue;
-                }
-                if (num < inputNumber) {
+                } else {
                     tryNumber = tryNumber + 1;
                     System.out.println("Меньше");
                     inputNumber = scanner.nextInt(10);

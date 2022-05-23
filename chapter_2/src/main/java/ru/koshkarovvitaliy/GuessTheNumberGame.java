@@ -25,23 +25,24 @@ public class GuessTheNumberGame {
             if (scanner.hasNext()) {
                 inputNumber = scanner.nextInt(10);
             }
-            while (num != inputNumber) {
-                if (tryNumber >= 3) {
-                    System.out.println(num);
+            while (tryNumber <= 3) {
+                if (num == inputNumber) {
+                    System.out.println("Verno!");
                     break;
                 }
                 if (num > inputNumber) {
-                    tryNumber = tryNumber + 1;
-                    System.out.println("Больше");
+                    System.out.println("Bolshe");
                     inputNumber = scanner.nextInt(10);
                 } else {
-                    tryNumber = tryNumber + 1;
-                    System.out.println("Меньше");
+                    System.out.println("Menshe");
                     inputNumber = scanner.nextInt(10);
                 }
-            }
-            if (num == inputNumber) {
-                System.out.println("Верно!");
+                ++tryNumber;
+                if (tryNumber == 3 && inputNumber != num) {
+                    System.out.println(num);
+                    break;
+                }
+
             }
         } catch (Exception ex) {
             ex.printStackTrace();
